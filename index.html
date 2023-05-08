@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+    <title>AgendaWeb</title>
+</head>
+<body>
+    <div class="container">
+        <h2>agenda de contactos</h2>
+        <div class="formulario-datos">
+            <input type="text" class="nombre" placeholder="Nombre"> 
+            <input type="text" class="telefono" placeholder="Telefono"> 
+            <input type="text" class="direccion" placeholder="Direccion"> <br>
+            <input type="text" class="numero" size=10 style="width:100px"  placeholder="Numero" > 
+            <input type="text" class="correo" placeholder="CorreoElectrónico"> 
+            <button class="btn-agregar-tarea">agregar contacto</button>
+            
+            
+        
+            <div class="listado-tareas"  >
+                <div class="tarea">
+                    <p>Nombre</p>
+                    <p>Telefono</p>
+                    <p>Direccion</p>
+                    <p>Numero</p>
+                    <p>Correo</p>
+                    
+                    <span class="material-symbols-outlined icono">
+                        delete_forever
+                        </span>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    
+    <script src="funciones.js"> </script>
+    <script src="main.js"> </script>
+    
+    
+</body>
+</html>
